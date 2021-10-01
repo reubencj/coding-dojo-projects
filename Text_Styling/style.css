@@ -1,0 +1,28 @@
+
+*{
+    font-family: popins, sans-serif;
+}
+h1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+
+h1 span {
+    color: turquoise;
+}
+
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    text-align: right;
+    text-decoration: underline;
+    background-color: #9FC5F8;
+    color: rgb(46, 35, 119);
+
+}
