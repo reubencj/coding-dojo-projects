@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <main>
+        <h2>Your Feed</h2>
+        <div id="user-info">
+            <img src="reuben.jpg" alt="reuben's picture" id="profile-pic">
+            <a href="">Add an avatar</a>
+            <h3>Reuben John</h3>
+        </div>
+
+        <article id="post-1" class="post">
+            <h3 class="user-name">Neil M</h3>
+            <p class="like-count" id="like-count-1">9 like(s)</p>
+            <button class="like-btn" onclick="updateLike('#like-count-1',0)">
+                Like
+            </button>
+            <p class="post-message">I just set up this new discord bot
+                let me know what you all think <a href="">link</a></p>
+        </article>
+
+        <article id="post-2" class="post">
+            <h3 class="user-name">Nichole K</h3>
+            <p class="like-count" id="like-count-2">12 like(s)</p>
+            <button class="like-btn" onclick="updateLike('#like-count-2',1)">
+                Like
+            </button>
+            <p class="post-message">Just finished my <a href="">next comic</a>,
+                check it out.</p>
+        </article>
+
+        <article id="post-3" class="post">
+            <h3 class="user-name">Jim R</h3>
+            <p class="like-count" id="like-count-3">9 like(s)</p>
+            <button class="like-btn" onclick="updateLike('#like-count-3',2)">
+                Like
+            </button>
+            <p class="post-message">I can't stop listening to the <a href="">new album</a>.
+                Who else is liking it?
+            </p>
+        </article>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
